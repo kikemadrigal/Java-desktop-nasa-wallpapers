@@ -12,9 +12,14 @@ You can also manage a database with your favorite wallpapers and select some pho
 
 # Instalación / installation
 
-Puedes descargar el programa pinchando aquí: 
-
+Puedes descargar el programa pinchando aquí:
+ 
 You can download the program by clicking here:
+
+https://github.com/kikemadrigal/Java-desktop-nasa-wallpapers/releases/download/v1.0.0/Nasa-wallpapers.exe
+
+
+
 
 
 
