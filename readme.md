@@ -47,17 +47,20 @@ Utiliza la librería https://mvnrepository.com/artifact/net.java.dev.jna/jna que
 
 Para compilar el proyecto utiliza maven:
 
-1. En eclipse, abre tu programa desde File->Import->Existing Maven Projects y selecciona la carpeta.
-2. Para solo compilar el proyecto y ejecutar, pincha botón derecho  sobre la carpeta del proyecto->Run as->Maven build... y escribe en Goals: compile exec:java -Dexec.mainClass="wallpaper.Main" -Djava.io.tmpdir=C:\\javatmpdir
+1. En eclipse, abre tu programa desde File->Import->Existing Maven Projects y selecciona el archivo pong.xml.
+2. Para solo compilar el proyecto y ejecutar, pincha botón derecho sobre la carpeta del proyecto->Run as->Maven build... y escribe en Goals: compile exec:java -Dexec.mainClass="wallpaper.Main" -Djava.io.tmpdir=C:\\javatmpdir
+   
 -Dexec.mainClass="wallpaper.Main" es para decirle donde está la clase principal
+
 -Djava.io.tmpdir=C:\\javatmpdir es para cambiar el directorio temporal que utiliza windows por defecto para la librería y que si no lo cambias te da error por falta de permisos.
 
 Pincha en Run.
-Recuerda que esto es posuble por la configuración que le hemos puesto en el archivo pong.xml
+
+Recuerda que esto es posible por la configuración que le hemos puesto en el archivo pong.xml
 
 <img src=docs/5.PNG width=400px />
 
-3. Para crear el jar, utiliza el comando mvn package.
+1. Para crear el jar, utiliza el comando mvn package.
 
 <img src=docs/6.PNG width=400px />
 
@@ -87,6 +90,7 @@ Recuerda que esto es posuble por la configuración que le hemos puesto en el arc
     <img src=docs/8.PNG width=300px />
     
     Al pichar el el engraje, te sale una ventana, elige su lugar de destino y ponle un nombre al archivo:
+    
     Es una copia de respaldo de la configuración para que puedas abrirla desde Open configuration.
 
     <img src=docs/9.PNG width=300px />
