@@ -142,6 +142,9 @@ public class ThreadChanger extends Thread{
 	
 	public void changer() {
 		File file=new File("temp.jpg");
+		file.setReadable(true, false);
+		file.setExecutable(true, false);
+		file.setWritable(true, false);
 		String stringFile=file.getAbsolutePath();
 		if(file!=null)
 			User32.INSTANCE.SystemParametersInfo(0x0014, 0, stringFile, 1);	
